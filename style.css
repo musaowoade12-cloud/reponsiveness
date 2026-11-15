@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav{
+    margin-top: 15px;
+    /* border: 1px solid; */
+    display: flex;
+    padding: 0 20px;
+}
+
+.nav-ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 24px;
+    font-size: 18px;
+}
+
+.nav-ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-ul a:hover{
+    color: #ed1c24;
+}
+
+.get-started{
+    margin-left: 24px;
+    background-color: #ed1c24;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    padding: 0px 15px 0px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bi-plus-circle{
+   font-size: 24px; 
+}
+
+.get-started:hover{
+    opacity: 0.8;
+}
+
+.dropdown {
+    /* border: 1px solid; */
+    list-style-type: none;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 1px .1px;
+    border-radius: 5px;
+    position: absolute;
+    text-wrap: nowrap;
+
+}
+
+.nav-ul>li {
+    position: relative;
+}
+
+.solution:hover .solution-dd {
+    display: flex;
+}
+
+.use-cases:hover .use-cases-dd {
+    display: flex;
+}
+
+.menu-bar {
+    margin-top: 5px;
+    font-size: 27px;
+    display: none;
+}
+
+.logo {
+    height: 60px;
+}
+
+.hero{
+    min-height: 200px;
+    text-align: center;
+    margin: 60px 0;
+} 
+
+.hero> h1{
+    font-size: 44.5px;
+    font-weight: 400;
+    width: 26%;
+    margin: auto;
+}
+
+.hero> p{
+    font-size: 24px;
+    margin: 10px;
+}
+
+.hero> div{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.hero-btn{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    width: 250px;
+}
+
+.btn1{
+    color: #ed1c24;
+    border: 1px solid #ed1c24;
+    background-color: white;
+}
+
+.btn1:hover{
+    color: black;
+    border-color: black;
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: #ed1c24;
+    color: white;
+}
+
+.btn2:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.set-up{    
+    width: 70%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.apps h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.set-up p{
+    margin-top: 13px;
+    line-height: 25px;
+}
+
+.set-up> .apps{
+    width: 43%;
+}
+
+.go-live{
+    height: 460px;
+}
+
+.set-u{    
+    width: 70%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.set-u p{
+    margin-top: 13px;
+    line-height: 25px;
+}
+
+.set-u> .apps{
+    width: 41%;
+}
+
+.apps-do h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.set-up> .apps-do{
+    width: 35%;
+}
+
+.set-do{    
+    width: 70%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+}
+
+.set-do p{
+    margin-top: 13px;
+    line-height: 25px;
+}
+
+.set-do> .apps{
+    width: 43%;
+}
+
+.more h2{
+    font-size: 44.088px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.icons{
+    width: 50%;
+    margin: 65px auto;
+    display: flex;
+    gap: 50px;
+}
+
+.icons> h3{
+    font-size: 20px;
+    font-weight: 700;
+} 
+
+.icons p{
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.icons>li:nth-child(1){
+    width: 45.55%;
+    text-align: center;
+    list-style-type: none;
+    padding: 20px 0 0;
+}
+
+.icons>li:nth-child(2){
+    width: 45%;
+    text-align: center;
+    list-style-type: none;
+    padding: 20px 0 0;
+}
+
+.red{
+    margin-bottom: 30px;
+}
+
+.access{
+    width: 50%;
+    margin: 65px auto;
+    display: flex;
+    gap: 50px;
+}
+
+
+.access> h3{
+    font-size: 20px;
+    font-weight: 700;
+} 
+
+.access p{
+    margin-top: 15px;
+    line-height: 25px;
+}
+.access>li:nth-child(1){
+    width: 45.55%;
+    text-align: center;
+    list-style-type: none;
+    padding: 20px 0 0;
+}
+
+.access>li:nth-child(2){
+    width: 45%;
+    text-align: center;
+    list-style-type: none;
+    padding: 20px 0 0;
+}
+
+
+.optimal{
+    width: 50%;
+    margin: 65px auto;
+    display: flex;
+    gap: 50px;
+}
+
+.optimal> h3{
+    font-size: 20px;
+    font-weight: 700;
+} 
+
+.optimal p{
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.optimal li{
+    width: 45.55%;
+    text-align: center;
+    list-style-type: none;
+    padding: 20px 0 0;
+}
+.creator{
+    width: 70%;
+    margin: 80px auto;
+}
+
+.become>div:nth-child(1){
+    width: 45%;
+    margin: auto;
+}
+
+.become h2{
+    font-size: 44.088px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.become>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .nav-ul {
+        display: none;
+    }
+
+    .get-started {
+        margin-left: auto;
+    }
+
+    .menu-bar {
+        display: block;
+        margin-left: 6px;
+    }
+
+    .hero> h1{
+        display: inline;
+        font-size: 40px;
+    }
+    header{
+        display: none;
+    }
+
+    .set-up{
+        width: 90%;
+    }
+
+    .apps h2{
+        font-size: 35px;
+    }
+
+    .go-live{
+        height: 340px;
+    }
+
+    .set-u{
+        width: 90%;
+    }
+
+    .set-do{
+        width: 90%;
+    }
+
+    .apps-do h2{
+        font-size: 35px;
+    }
+
+    .set-do> .apps{
+    width: 30%;
+    }
+
+    .more h2{
+        font-size: 43px;
+    }
+
+    .icons{
+        width: 70%;
+    }
+
+    .icons>li:nth-child(1){
+    width: 100%;
+    }
+
+     .icons>li:nth-child(2){
+    width: 100%;
+    }
+
+       .access{
+        width: 70%;
+    }
+
+    .access>li:nth-child(1){
+    width: 100%;
+    }
+
+     .access>li:nth-child(2){
+    width: 100%;
+    }
+
+       .optimal{
+        width: 70%;
+    }
+
+    .optimal li{
+    width: 100%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .logo {
+        height: 40px;
+    }
+
+    .get-started {
+        font-size: 16px;
+    }
+
+    .hero> div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .hero> h1{
+        padding: 0 2px;
+        font-size: 38px;
+    }
+
+    .plans> button{
+        padding: 10px;
+        width: 350px;
+        
+    }
+
+    header{
+        display: none;
+        margin-top: 50px;
+    }
+    .set-up{
+        flex-direction: column;
+    }
+     
+    .set-up> .apps{
+        width: 75%;
+        text-align: center;
+    }
+
+    .apps h2{
+        font-size: 23px;
+    }
+    .go-live{
+        height: 200px;
+    }
+
+     .set-u{
+        margin-top: 20px;
+        flex-direction: column-reverse;
+    }
+     
+    .set-u> .apps{
+        width: 75%;
+        text-align: center;
+    }
+
+    .go-live{
+        height: 200px;
+    }
+
+     .set-do{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+     
+    .set-do> .apps-do{
+        width: 75%;
+        text-align: center;
+    }
+
+    .apps-do h2{
+        font-size: 23px;
+    } 
+
+    .icons{  
+        flex-direction: column;
+    }
+    
+     .access{  
+        flex-direction: column;
+    }
+
+     .optimal{  
+        flex-direction: column;
+    }
+}
