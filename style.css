@@ -7,6 +7,12 @@
     font-family: "Montserrat", sans-serif;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
 nav{
     margin-top: 15px;
     /* border: 1px solid; */
@@ -337,6 +343,45 @@ nav{
     margin-top: 30px;
 }
 
+.today{
+    padding-top: 10px;
+}
+
+footer{
+    /* border: 1px solid; */
+    margin: auto;
+    width: 70%;
+    justify-content: center;
+}
+
+.src{
+    width: 100px;
+    /* border: 1px dotted; */
+    margin: auto;
+}
+
+.unknow{
+    display: flex;
+}
+
+.policy{
+    width: 62%;
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+    margin: auto;
+}
+
+.policy li> a{
+    color: black;
+    text-decoration: none;
+}
+
+footer p{
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
 
 
 @media screen and (max-width: 900px) {
@@ -398,31 +443,47 @@ nav{
     }
 
     .icons>li:nth-child(1){
-    width: 100%;
+     width: 100%;
     }
 
-     .icons>li:nth-child(2){
-    width: 100%;
+    .icons>li:nth-child(2){
+      width: 100%;
     }
 
-       .access{
+    .access{
         width: 70%;
     }
 
     .access>li:nth-child(1){
-    width: 100%;
+       width: 100%;
     }
 
-     .access>li:nth-child(2){
-    width: 100%;
+    .access>li:nth-child(2){
+      width: 100%;
     }
 
-       .optimal{
+    .optimal{
         width: 70%;
     }
 
     .optimal li{
-    width: 100%;
+      width: 100%;
+    }
+
+     .creator{
+        width: 95%;
+    }
+
+    .become>div:nth-child(1){
+    width: 50%;
+     }
+
+    .become h2{
+        font-size: 43px;
+    }
+
+    footer{
+        display: none;
     }
 }
 
@@ -512,4 +573,13 @@ nav{
      .optimal{  
         flex-direction: column;
     }
+
+    .become>div:nth-child(1){
+    width: 60%;
+     }
+
+     .become>div:nth-child(2){
+        flex-direction: column;
+        align-items: center;
+     }
 }
