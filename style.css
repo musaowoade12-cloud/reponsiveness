@@ -348,7 +348,6 @@ nav{
 }
 
 footer{
-    /* border: 1px solid; */
     margin: auto;
     width: 70%;
     justify-content: center;
@@ -356,12 +355,31 @@ footer{
 
 .src{
     width: 100px;
-    /* border: 1px dotted; */
     margin: auto;
 }
 
 .unknow{
+    width: 12%;
+    margin: auto;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.fa-facebook-f{
+    height: 20px;
+    color: #ed1c24;
+}
+
+.fa-x-twitter{
+    height: 23px;
+    color: #ed1c24;
+}
+
+.fa-instagram{
+    height: 40px;
+    color: #ed1c24;
 }
 
 .policy{
@@ -369,7 +387,7 @@ footer{
     display: flex;
     list-style-type: none;
     gap: 24px;
-    margin: auto;
+    margin: 30px auto;
 }
 
 .policy li> a{
@@ -395,15 +413,12 @@ footer p{
 
     .menu-bar {
         display: block;
-        margin-left: 6px;
+        margin: 15px 0px 15px 0px;
     }
 
     .hero> h1{
         display: inline;
         font-size: 40px;
-    }
-    header{
-        display: none;
     }
 
     .set-up{
@@ -482,8 +497,13 @@ footer p{
         font-size: 43px;
     }
 
-    footer{
-        display: none;
+    .policy{
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .unknow{
+        width: 20%;
     }
 }
 
@@ -515,7 +535,6 @@ footer p{
     }
 
     header{
-        display: none;
         margin-top: 50px;
     }
     .set-up{
@@ -582,4 +601,8 @@ footer p{
         flex-direction: column;
         align-items: center;
      }
+
+     .unknow{
+        width: 50%;
+    }
 }
