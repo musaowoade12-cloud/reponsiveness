@@ -534,9 +534,6 @@ footer p{
         
     }
 
-    header{
-        margin-top: 50px;
-    }
     .set-up{
         flex-direction: column;
     }
@@ -604,5 +601,9 @@ footer p{
 
      .unknow{
         width: 50%;
+    }
+
+    footer> p{
+        width: 70%;
     }
 }
